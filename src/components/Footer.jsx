@@ -29,6 +29,20 @@ const Footer = () => {
               </li>
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
                 <Link
+                  to="/refund-policy"
+                  className="no-underline hover:underline text-gray-800 decoration-[#d53369] hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#d53369] hover:to-[#daae51]">
+                  Refund Policy
+                </Link>
+              </li>
+              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
+                <Link
+                  to="/terms&conditions"
+                  className="no-underline hover:underline text-gray-800 decoration-[#d53369] hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#d53369] hover:to-[#daae51]">
+                  Terms & Conditions
+                </Link>
+              </li>
+              <li className="mt-2 inline-block mr-2 md:block md:mr-0">
+                <Link
                   to="/faq"
                   className="no-underline hover:underline text-gray-800 decoration-[#d53369] hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#d53369] hover:to-[#daae51]">
                   FAQ
@@ -38,7 +52,7 @@ const Footer = () => {
           </div>
 
           {/* Services Section */}
-          <div className="flex-1">
+          {/* <div className="flex-1">
             <p className="uppercase text-gray-500 md:mb-6">Services</p>
             <ul className="list-reset mb-6">
               <li className="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -70,7 +84,7 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Address Section */}
           <div className="flex-1">
@@ -82,9 +96,9 @@ const Footer = () => {
                 Email:{' '}
                 <a
                   className="hover:underline decoration-[#d53369] hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r hover:from-[#d53369] hover:to-[#daae51]"
-                  href="mailto:sales@collablinesolutions.com"
+                  href="mailto:Sales@hillbornsolutions.com"
                 >
-                  sales@collablinesolutions.com
+                  Sales@hillbornsolutions.com
                 </a>
               </p>
               <p>Phone: +1 (469) 828-9408</p>

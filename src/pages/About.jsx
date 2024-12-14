@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
-import welcome from "../assets/images/welcome.png";
+import welcome from "../assets/images/welcome1.png";
 import mail_soln from "../assets/images/mail_soln.png";
 import join_team from "../assets/images/join_team.png";
 

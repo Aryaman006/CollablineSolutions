@@ -18,6 +18,8 @@ import DataCleansing from './pages/DataCleansing'
 import DataLicensing from './pages/DataLicensing'
 import PhoneAppending from './pages/PhoneAppending'
 import ScrollToTop from './components/ScrollToTop'; // Import the ScrollToTop component
+import TermsAndConditions from './pages/TermsAndConditions';
+import RefundPolicy from './pages/RefundPolicyPage';
 // import Services from './pages/Services';
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path='/refund-policy' element={<RefundPolicy/>}/>
+        <Route path='/terms&conditions' element={<TermsAndConditions/>}/>
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
@@ -36,12 +40,12 @@ function App() {
         <Route path="/industry-email-list" element={<IndustryEmailList />} />
         <Route path="/international-email-list" element={<InternationalEmailList />} />
         <Route path="/b2b-email-list" element={<B2BEmailList />} />
+        {/* <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/data-appending-services" element={<DataAppending />} />
         <Route path="/b2b-email-appending-services" element={<B2BAppending />} />
-        <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/data-cleansing-services" element={<DataCleansing />} />
         <Route path="/data-licensing-services" element={<DataLicensing />} />
-        <Route path="/phone-appending-services" element={<PhoneAppending />} />
+        <Route path="/phone-appending-services" element={<PhoneAppending />} /> */}
         {/* <Route path="/services" element={<Services />} /> */}
       </Routes>
     </Router>

@@ -142,7 +142,7 @@ const Navbar = () => {
             </li>
 
             {/* Services */}
-            <li className="relative group mr-3">
+            {/* <li className="relative group mr-3">
               <a
                 href="#"
                 className="py-2 px-2 font-bold text-white bg-transparent hover:bg-white hover:text-[#d53369] rounded transition"
@@ -191,10 +191,9 @@ const Navbar = () => {
                       Phone Appending Services
                     </Link>
                   </li>
-                  {/* Other Service Items */}
                 </ul>
               </div>
-            </li>
+            </li> */}
 
             {/* Contact Us */}
             <li className="relative group mr-3">

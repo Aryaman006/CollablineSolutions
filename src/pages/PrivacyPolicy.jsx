@@ -161,7 +161,7 @@ const PrivacyPolicy = () => {
           <p className="text-gray-700 leading-relaxed">
             If you have doubts regarding the use of our services, reach us now!
             <br />
-            <strong>Email:</strong> sales@collablinesolutions.com
+            <strong>Email:</strong> Sales@hillbornsolutions.com
             <br />
             <strong>Phone:</strong> +1 (469) 828-9408
             <br />

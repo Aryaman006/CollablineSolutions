@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
-import join_team from "../assets/images/join_team.jpg";
+import join_team from "../assets/images/join_team.png";
 import Card from "../components/Card"
 import FAQ from '../components/FAQ';
 import { FaEnvelope, FaPhoneAlt, FaMailBulk, FaFacebook } from 'react-icons/fa';
